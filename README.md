@@ -5,7 +5,7 @@
 ***Perform the following actions
 
 Enable Google Cloud Functions. Read more [here](https://cloud.google.com/functions/docs/create-deploy-gcloud). \
-Install and configure gcloud CLI. Read more [here](https://cloud.google.com/functions/docs/create-deploy-gcloud). \
+Install and configure gcloud CLI. Read more [here](https://cloud.google.com/functions/docs/create-deploy-gcloud). 
 
 ***Replace the following with your own
 
@@ -50,9 +50,12 @@ From the output of the last command, note the name <gcf-conn-name> (i.e. xxxxxx.
 
     -- Define corpus
     DECLARE enString STRING;
-    SET enString = "The|cats|are|sitting|on|the|couch|WITH|YOUNGER";
+    SET enString = "The|cats|are|sitting|on|the|couch";
 
     SELECT `justfunctions.lemmatization.lemmatize`(enString) word_lemmas
+
+    -- Output
+    The|cat|be|sit|on|the|couch
 
 ### 7. CLI : Remove everything
 

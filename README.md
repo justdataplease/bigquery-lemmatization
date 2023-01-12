@@ -1,4 +1,4 @@
-# Microservices as Functions in BigQuery - Words Lemmatization using SQL (Part 3)
+# Microservices as Functions in BigQuery - NLP Words Lemmatization using SQL (Part 3)
 
 ## How to reproduce
 

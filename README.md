@@ -10,8 +10,8 @@ Install and configure gcloud CLI. Read more [here](https://cloud.google.com/func
 ***Replace the following with your own
 
 1) \<your-project-id>
-2) \<gcf-conn-name> (step 2)
-3) \<gcf-endpoint> (step 4)
+2) \<gcf-endpoint> (step 2)
+3) \<gcf-conn> (step 3)
 
 ### 1. Clone the repository
 

@@ -40,7 +40,7 @@ From the output of the last command, note the name <gcf-conn-name> (i.e. xxxxxx.
 
     CREATE OR REPLACE FUNCTION `lemmatization.lemmatize`(text STRING)
     RETURNS STRING
-    REMOTE WITH CONNECTION `<gcf-conn-name>`
+    REMOTE WITH CONNECTION `<gcf-conn>`
         OPTIONS (
             -- change this to reflect the Trigger URL of your cloud function (look for the TRIGGER tab)
             endpoint = '<gcf-endpoint>'

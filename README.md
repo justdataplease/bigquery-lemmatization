@@ -67,4 +67,4 @@ Output
     bq rm -r -f -d <your-project-id>:lemmatization
 
     # Remove connection between BigQuery and Cloud Functions (gcf-conn)
-    bq rm --connection --location=EU <gcf-conn-name>
+    bq rm --connection --location=EU <gcf-conn>

@@ -54,12 +54,13 @@ From the output of the last command, note the name <gcf-conn-name> (i.e. xxxxxx.
 
     SELECT `justfunctions.lemmatization.lemmatize`(enString) word_lemmas
 
-    -- Output
+Output
+
     The|cat|be|sit|on|the|couch
 
 ### 7. CLI : Remove everything
 
-    # Remove Cloud Function (gcf)
+    # Remove Cloud Function (gcf-endpoint)
     gcloud functions delete bigquery-lemmatize --region=europe-west3 --project=<your-project-id> --gen2
 
     # Remove DATASET
